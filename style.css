@@ -194,3 +194,40 @@ code {
     transform: translateY(2px);
 }
   
+
+
+
+/* ------------------------ Media Query ------------------------ */
+
+@media screen and (max-width: 768px) {
+    #animated-header {
+        margin-top: 20px;
+        font-size: 1.7rem;
+    }
+
+    textarea {
+        min-height: 250px;
+    }
+
+    #preview {
+        min-height: 250px;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    textarea {
+        min-height: 200px;
+    }
+
+    #preview {
+        min-height: 200px;
+        margin-top: 10px;
+    }
+    
+    .toolbar {
+        margin: 10px 0;
+    }
+}
